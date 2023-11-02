@@ -1,0 +1,16 @@
+
+
+gcc experimento1A.c -o experimento1A.out
+./experimento1.out
+
+
+gcc experimento2A.c -o experimento2A.out
+./experimento2A.out
+
+
+gcc experimento1A.c -o experimento1A.out -fopenmp
+./experimento1A.out
+
+
+gcc experimento2.c -o experimento2.out -fopenmp
+./experimento2.out
