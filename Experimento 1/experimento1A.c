@@ -55,7 +55,6 @@ int main(int argc, char *argv[]){
     }
 
 
-
     // #pragma omp parallel
     // {
     //     // Multiplicación de la matriz por sí misma
@@ -75,6 +74,7 @@ int main(int argc, char *argv[]){
     // Calcula el tiempo transcurrido en segundos
     tiempo_transcurrido = (double)(fin - inicio) / CLOCKS_PER_SEC;
     printf("Tiempo de ejecución: %f segundos\n", tiempo_transcurrido);
+    // printf("%f\n", tiempo_transcurrido);
 
     // // imprime la matriz generada
     // for(size_t i = 0; i < N; ++i){ 

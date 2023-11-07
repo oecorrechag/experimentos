@@ -3,7 +3,7 @@
 #include <omp.h>
 #include <time.h>
 
-#define N 100 // Tamaño de las matrices cuadradas
+#define N 500 // Tamaño de las matrices cuadradas
 
 void multiply_matrices(int A[N][N], int B[N][N], int C[N][N]) {
     #pragma omp parallel for
@@ -35,7 +35,8 @@ int main() {
 
     double end_time = omp_get_wtime(); // Registro del tiempo de finalización
 
-    printf("Tiempo de ejecución: %f segundos\n", end_time - start_time);
+    // printf("Tiempo de ejecución: %f segundos\n", end_time - start_time);
+    printf("%f \n", end_time - start_time);
 
     return 0;
 }

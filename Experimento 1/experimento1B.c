@@ -25,7 +25,8 @@ int main() {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             A[i][j] = rand() % 100;
-            B[i][j] = rand() % 100;
+            // B[i][j] = rand() % 100;
+            B[j][i] = A[i][j];
         }
     }
 
@@ -36,6 +37,7 @@ int main() {
     double end_time = omp_get_wtime(); // Registro del tiempo de finalización
 
     printf("Tiempo de ejecución: %f segundos\n", end_time - start_time);
+    // printf("%f \n", end_time - start_time);
 
     return 0;
 }

@@ -8,7 +8,7 @@ int main(int argc, char *argv[]){
     size_t **matrix; 
     size_t **matrizT; 
     size_t **resultado; 
-    size_t N = 100;
+    size_t N = 500;
     clock_t inicio, fin;
     double tiempo_transcurrido;
     srand(time(NULL));
@@ -109,7 +109,8 @@ int main(int argc, char *argv[]){
 
     // Calcula el tiempo transcurrido en segundos
     tiempo_transcurrido = (double)(fin - inicio) / CLOCKS_PER_SEC;
-    printf("Tiempo de ejecución: %f segundos\n", tiempo_transcurrido);
+    // printf("Tiempo de ejecución: %f segundos\n", tiempo_transcurrido);
+    printf("%f\n", tiempo_transcurrido);
 
     // // imprime la matriz generada
     // for(size_t i = 0; i < N; ++i){ 

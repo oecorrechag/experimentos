@@ -24,4 +24,6 @@ tiempo_transcurrido = fin - inicio
 # print(matriz)
 # print("\nResultado de la multiplicación:")
 # print(resultado)
-print(f"\nTiempo transcurrido: {tiempo_transcurrido} segundos")
+
+# print(f"\nTiempo transcurrido: {tiempo_transcurrido} segundos")
+print(f"{tiempo_transcurrido}")

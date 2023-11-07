@@ -3,7 +3,7 @@ import time
 import random
 
 # Definir la dimensión de la matriz N
-N = 500
+N = 100
 
 # Crear una matriz N x N con valores del 1 al 100
 matriz = np.random.randint(1, 101, size=(N, N))

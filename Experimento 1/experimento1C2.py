@@ -3,7 +3,7 @@ import time
 import random
 
 # Definir la dimensión de la matriz N
-N = 100
+N = 500
 
 # Crear una matriz N x N con valores del 1 al 100
 matriz = np.random.randint(1, 101, size=(N, N))
@@ -30,3 +30,4 @@ tiempo_transcurrido = fin - inicio
 # print("\nResultado de la multiplicación:")
 # print(resultado)
 print(f"\nTiempo transcurrido: {tiempo_transcurrido} segundos")
+# print(f"{tiempo_transcurrido}")
