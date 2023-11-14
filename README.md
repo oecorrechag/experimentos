@@ -1,4 +1,6 @@
 
+![alt text](https://github.com/oecorrechag/experimento/imagenes/blob/logo.png)
+
 # Experimentos
 
 1. experimento1A.c -> multiplicacion de matrices fila por columnas en c sin OpenMP
