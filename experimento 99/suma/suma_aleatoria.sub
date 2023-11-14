@@ -1,6 +1,0 @@
-executable = suma_aleatoria.sh
-output = suma_aleatoria.out
-error = suma_aleatoria.err
-log = suma_aleatoria.log
-transfer_input_files = suma_aleatoria.c
-queue
