@@ -11,7 +11,7 @@ algoritmo implementado en C con OpenMP y su contraparte
 sin el uso de OpenMP? y ¿Hay una disparidad discernible en
 el tiempo de ejecución entre algoritmos implementados en C
 y aquellos implementados en Python (utilizando la biblioteca
-NumPy) y en R?.
+NumPy) y en R?
 
 ## Tabla de contenido
 
@@ -30,9 +30,10 @@ NumPy) y en R?.
 
   - En la carpeta [**data**][data] se encuentran los archivos csv para las ejecuciones.
     
-  - En la carpeta [**documentos**][documentos] se encuentran los archivos csv para las ejecuciones.
+  - En la carpeta [**documentos**][documentos] se encuentra el documento pdf.
+    - [**Paper**][paper]
 
-  - En la carpeta [**graficos**][documentos] se encuentran graficos en html que comparan las ejecuciones con y sin OpenMP con R y Python.
+  - En la carpeta [**graficos**][graficos] se encuentran graficos en html que comparan las ejecuciones con y sin OpenMP con R y Python.
 
     [codigos]: https://github.com/oecorrechag/experimentos/tree/main/codigos
     [experimento fxc]: https://github.com/oecorrechag/experimentos/tree/main/codigos/experimento%20fxc
@@ -40,8 +41,10 @@ NumPy) y en R?.
     [HTcondor]: https://github.com/oecorrechag/experimentos/tree/main/codigos/HTcondor
     [data]: https://github.com/oecorrechag/experimentos/tree/main/data
     [documentos]: https://github.com/oecorrechag/experimentos/tree/main/documentos
+    [graficos]: https://github.com/oecorrechag/experimentos/tree/main/graficos
+
+    [paper]: https://github.com/oecorrechag/experimentos/blob/main/documentos/HPC%20experimento.pdf
 
 <hr>
 
 [Go to Top](#Tabla-de-contenido)
-
