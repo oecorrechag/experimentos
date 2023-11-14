@@ -31,7 +31,7 @@ NumPy) y en R?
   - En la carpeta [**data**][data] se encuentran los archivos csv para las ejecuciones.
     
   - En la carpeta [**documentos**][documentos] se encuentra el documento pdf.
-    - [**Paper**][paper]
+    - [**Documento**][paper]
 
   - En la carpeta [**graficos**][graficos] se encuentran graficos en html que comparan las ejecuciones con y sin OpenMP con R y Python.
 
