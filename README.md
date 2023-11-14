@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/oecorrechag/experimento/imagenes/logo.png)
+![alt text](https://github.com/oecorrechag/experimentos/imagenes/logo.png)
 
 # Experimentos
 
