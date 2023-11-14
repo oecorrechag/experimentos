@@ -43,7 +43,7 @@ NumPy) y en R?
     [documentos]: https://github.com/oecorrechag/experimentos/tree/main/documentos
     [graficos]: https://github.com/oecorrechag/experimentos/tree/main/graficos
 
-    [paper]: https://github.com/oecorrechag/experimentos/blob/main/documentos/HPC%20experimento.pdf
+    [paper]: https://github.com/oecorrechag/experimentos/blob/main/documentos/HPC_experimento.pdf
 
 <hr>
 
